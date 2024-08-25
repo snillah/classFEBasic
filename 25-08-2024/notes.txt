@@ -1,0 +1,8 @@
+1.Intro to CSS
+2.Type of CSS
+3.Priority of CSS
+4.usage of Important Keyword
+5.display Properties....
+6.pseudo class selectors
+
+ reference : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
