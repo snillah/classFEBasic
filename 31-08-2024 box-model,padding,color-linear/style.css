@@ -1,0 +1,12 @@
+
+.box{
+    /* content */
+    height: 250px;
+    width: 250px;
+    /* padding */
+    padding: 20px;
+    /* Border */
+    border: 10px solid black;
+    /* margin */
+    margin: 30px;
+}

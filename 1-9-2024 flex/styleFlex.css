@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    margin:20px;
+}
+.main{
+    display: flex;
+    gap:.5rem;
+}
+.parent{
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+
+}
+.flex1{
+    /* margin: 0 auto; */
+    height: 300px;
+    width: 300px;
+    display: flex;/* default row */
+
+    /* define row /column */
+    flex-direction: row;
+    flex-direction: column;
+    /* it may reverse */
+    flex-direction: row-reverse;
+    /* flex-direction: column-reverse; */
+    /* gap */
+    gap: 1rem;
+    /* wrap */
+    flex-wrap:wrap;
+
+}
+.flex2{
+    display: flex;/* default row */
+    
+    justify-content:space-between ;
+    justify-content: center;/* start,end*/
+    justify-content:space-evenly;
+    justify-content: space-around;
+    justify-content: stretch;
+    
+    /* Important */
+    /* wrap -use align-content*/
+    /* flex-wrap:wrap;
+    align-content:center;  */
+    align-items: center;
+    align-items: start;
+}
+.box{
+    border: 1px solid black;
+    background-color: brown;
+    width:50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
