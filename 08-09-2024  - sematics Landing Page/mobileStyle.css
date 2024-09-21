@@ -1,0 +1,26 @@
+@media screen and (min-width:50px) and (max-width:480px){
+   
+    body{
+        margin:0px;
+        padding: 0px;
+        /* background-color: whitesmoke; */
+        text-align: center;
+        width: 360px;
+    }
+    header,main{
+        margin-inline:auto;
+    }
+    header{
+        background-color: none !important;
+        top: 100;
+    }
+    nav{
+        width: -webkit-fill-available;
+         margin-left:-5%;
+       /* margin-right: 3%; */
+        background-color: #323232;
+        padding: 10px;
+        position: fixed;
+        bottom:0;
+    }
+}
